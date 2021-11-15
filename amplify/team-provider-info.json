@@ -1,0 +1,35 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ubereats-dev-153948-authRole",
+      "UnauthRoleArn": "arn:aws:iam::225203565461:role/amplify-ubereats-dev-153948-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::225203565461:role/amplify-ubereats-dev-153948-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ubereats-dev-153948-deployment",
+      "UnauthRoleName": "amplify-ubereats-dev-153948-unauthRole",
+      "StackName": "amplify-ubereats-dev-153948",
+      "StackId": "arn:aws:cloudformation:us-east-1:225203565461:stack/amplify-ubereats-dev-153948/492536a0-3e89-11ec-a46c-12ca0e467fbf",
+      "AmplifyAppId": "dk3si9kfinoev"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dk3si9kfinoev",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "ubereatse62ef6df": {}
+      },
+      "function": {
+        "ubereatse62ef6dfCustomMessage": {
+          "REDIRECTURL": "https://dev.dk3si9kfinoev.amplifyapp.com/",
+          "EMAILSUBJECT": "Account Confirmation - Thank you for registering with us",
+          "EMAILMESSAGE": "Thank you for registering with you. Below is the link for your account.",
+          "deploymentBucketName": "amplify-ubereats-dev-153948-deployment",
+          "s3Key": "amplify-builds/ubereatse62ef6dfCustomMessage-6c633069325959363879-build.zip"
+        }
+      }
+    }
+  }
+}

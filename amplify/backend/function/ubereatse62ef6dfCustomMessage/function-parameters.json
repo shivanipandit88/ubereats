@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "ubereatse62ef6df",
+  "functionName": "ubereatse62ef6dfCustomMessage",
+  "resourceName": "ubereatse62ef6dfCustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "C:\\snapshot\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\triggers\\CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "ubereatse62ef6dfCustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "https://dev.dk3si9kfinoev.amplifyapp.com/",
+  "EMAILSUBJECT": "Account Confirmation - Thank you for registering with us",
+  "EMAILMESSAGE": "Thank you for registering with you. Below is the link for your account.",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}
